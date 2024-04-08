@@ -1,7 +1,7 @@
 CREATE OR REPLACE PROCEDURE GetActionPlanByStageName(stageName IN VARCHAR2)
 AS
     CURSOR action_plan_cursor IS
-        SELECT p.task_id, p.task_name, p.executor, p.start_date, p.end_date,
+        SELECT p.task_id,p.stage, p.task_name, p.executor, p.start_date, p.end_date,
                p.period_of_execution, p.pointer_of_execution, p.deadline,
                p.status, p.notes
         FROM project_action_plan p
