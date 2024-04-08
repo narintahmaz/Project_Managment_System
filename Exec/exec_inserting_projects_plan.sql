@@ -1,0 +1,1 @@
+Execute insert_project_action_plan('Analiz','Define project scope','Narin Tahmazova','08.04.2024','15.04.2024','7 gün','100%','15.04.2024','Davam edir','Initial phase of the project, gather requirements')
